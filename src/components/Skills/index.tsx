@@ -80,8 +80,8 @@ export default function Skills() {
               useFlexGap
               flexWrap="wrap"
             >
-              {SKILLS.map((item) => (
-                <Chip label={item} />
+              {SKILLS.map((item, index) => (
+                <Chip key={index} label={item} />
               ))}
             </Stack>
           </Box>

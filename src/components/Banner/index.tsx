@@ -15,7 +15,11 @@ export default function Banner() {
       component="section"
       disableGutters={true}
       sx={{
-        margin: "200px 0",
+        margin: "auto",
+        minHeight: "100vh",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
       }}
     >
       <Typography align="center" component="h2" variant="h3">
