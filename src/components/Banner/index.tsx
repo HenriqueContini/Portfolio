@@ -15,7 +15,7 @@ export default function Banner() {
       component="section"
       disableGutters={true}
       sx={{
-        marginTop: "150px",
+        margin: "200px 0",
       }}
     >
       <Typography align="center" component="h2" variant="h3">
@@ -32,7 +32,7 @@ export default function Banner() {
           variant="subtitle1"
           color={theme.palette.primary.main}
         >
-          Desenvolvedor Full-stack Jr
+          Desenvolvedor Full Stack Jr
         </Typography>
       </Divider>
       <Typography

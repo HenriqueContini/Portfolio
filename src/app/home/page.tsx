@@ -1,5 +1,6 @@
 import Banner from "@/components/Banner";
 import Header from "@/components/Header";
+import Skills from "@/components/Skills";
 import { Container } from "@mui/material";
 
 function Home() {
@@ -17,6 +18,7 @@ function Home() {
         }}
       >
         <Banner />
+        <Skills />
       </Container>
     </>
   );

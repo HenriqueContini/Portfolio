@@ -15,7 +15,7 @@ export default function Header() {
       <AppBar position="relative">
         <Toolbar
           sx={{
-            padding: "30px",
+            padding: "20px",
             display: "flex",
             flexDirection: "row",
             gap: "30px",
