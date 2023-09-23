@@ -2,7 +2,9 @@
 
 ### 🖥️ Projeto
 
-Este é o meu portfólio. Ele foi feito com Next.js e o Material UI.
+Este é o meu <a href="https://portfolio-henriquecontini.vercel.app/">portfólio</a>.
+
+Além de servir como portfólio, este projeto foi o primeiro que realizei utilizando o Next.js. Para a UI, foi utilizado o Material UI.
 
 ### ⚙️ Tecnologias
 
