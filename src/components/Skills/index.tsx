@@ -28,7 +28,7 @@ export default function Skills() {
   const theme = useTheme();
 
   return (
-    <Container component="section" disableGutters={true}>
+    <Container component="section">
       <Grid
         container
         spacing={8}

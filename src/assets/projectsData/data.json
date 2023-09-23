@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Pokédex",
+    "description": "Uma Pokédex feita com React e TypeScript para exibir os mais diversos Pokémons.",
+    "link": "https://github.com/HenriqueContini/Pokedex",
+    "img": "https://user-images.githubusercontent.com/81761545/270115203-effd3891-9f72-4b73-b73c-4b1798b4fdfa.png"
+  },
+  {
+    "name": "API Rick & Morty",
+    "description": "API que contém dados dos personagens e lugares da série Rick and Morty. Foi utilizado Node.js com Express.",
+    "link": "https://github.com/HenriqueContini/API-RickAndMorty",
+    "img": "https://user-images.githubusercontent.com/81761545/270116327-fdc50201-d5d7-461f-bb4d-4f31d611a136.png"
+  },
+  {
+    "name": "Vitrine Gamer",
+    "description": "Galeria de jogos que é fornecida por uma API. Possui tela de login com integração com o Firebase Auth e funcionalidade de curtir e ordenar.",
+    "link": "https://github.com/HenriqueContini/Vitrine-Gamer",
+    "img": "https://user-images.githubusercontent.com/81761545/270119773-a3559fbf-34de-44d0-8eb6-0d6b75562e69.png"
+  }
+]
