@@ -17,10 +17,10 @@ export default function Header() {
       <S.modalContainer $opened={isModalOpen}>
         <HeaderNav />
         <S.mediaLinkContainer>
-          <S.mediaLinkButton>
+          <S.mediaLinkButton href="https://github.com/HenriqueContini">
             <IoLogoGithub />
           </S.mediaLinkButton>
-          <S.mediaLinkButton>
+          <S.mediaLinkButton href="https://www.linkedin.com/in/henrique-contini/">
             <IoLogoLinkedin />
           </S.mediaLinkButton>
         </S.mediaLinkContainer>
