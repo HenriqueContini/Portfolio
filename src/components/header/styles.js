@@ -19,7 +19,7 @@ export const logoImg = styled.img`
 export const title = styled.h1`
   color: ${(props) => props.theme.color.white};
   font-weight: bold;
-  font-size: 1.25em;
+  font-size: 1.25rem;
 `;
 
 export const toggleSideNav = styled.div`
