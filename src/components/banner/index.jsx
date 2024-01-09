@@ -1,7 +1,7 @@
-import * as S from "./styles";
-import profileImg from "../../assets/profileImg.svg";
 import React, { useEffect, useState } from "react";
-import { FaSquareFull } from "react-icons/fa";
+import * as S from "./styles";
+import { FaCircle } from "react-icons/fa6";
+import profileImg from "../../assets/profileImg.svg";
 import getWorkingOn from "../../services/getWorkingOn";
 
 export default function Banner() {
@@ -32,7 +32,7 @@ export default function Banner() {
         />
         <S.workingOnWrapper>
           <S.workingOnIcon>
-            <FaSquareFull />
+            <FaCircle />
           </S.workingOnIcon>
           <S.workingOnText>
             Atualmente, desenvolvendo:{" "}
