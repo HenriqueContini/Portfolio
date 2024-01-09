@@ -1,11 +1,20 @@
 import * as S from "./styles";
 import profileImg from "../../assets/profileImg.svg";
-import React from "react";
-import { RiCheckboxBlankFill } from "react-icons/ri";
-import { MdCircle } from "react-icons/md";
+import React, { useEffect, useState } from "react";
 import { FaSquareFull } from "react-icons/fa";
+import getWorkingOn from "../../services/getWorkingOn";
 
 export default function Banner() {
+  const [workingOnData, setWorkingOnData] = useState({});
+
+  const getData = async () => {
+    setWorkingOnData(await getWorkingOn());
+  };
+
+  useEffect(() => {
+    getData();
+  }, []);
+
   return (
     <S.bannerContainer>
       <S.textWrapper>
@@ -26,7 +35,13 @@ export default function Banner() {
             <FaSquareFull />
           </S.workingOnIcon>
           <S.workingOnText>
-            Atualmente, desenvolvendo: <span>workshop-springboot3-jpa</span>
+            Atualmente, desenvolvendo:{" "}
+            <a
+              href={workingOnData.repoUrl ? workingOnData.repoUrl : "#"}
+              target={workingOnData.repoUrl ? "_blank" : "_self"}
+            >
+              {workingOnData.repoName ? workingOnData.repoName : "Portfólio"}
+            </a>
           </S.workingOnText>
         </S.workingOnWrapper>
       </S.imageWrapper>

@@ -58,11 +58,13 @@ export const workingOnText = styled.p`
   color: ${(props) => props.theme.color.gray};
   line-height: 20px;
 
-  & > span {
+  & > a {
     color: ${(props) => props.theme.color.white};
     font-weight: 500;
-    overflow: hidden;
+    text-decoration: none;
+  }
 
-    text-overflow: ellipsis;
+  & > a:hover {
+    text-decoration: underline;
   }
 `;
