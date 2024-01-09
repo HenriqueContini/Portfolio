@@ -16,7 +16,7 @@ export default function Banner() {
   }, []);
 
   return (
-    <S.bannerContainer>
+    <S.bannerContainer id="banner">
       <S.textWrapper>
         <S.bannerTitle>
           Henrique, <span>desenvolvedor web full-stack</span> & <span>QA</span>

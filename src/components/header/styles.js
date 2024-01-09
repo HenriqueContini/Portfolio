@@ -1,9 +1,15 @@
 import styled from "styled-components";
 
 export const headerContainer = styled.header`
+  position: fixed;
+  top: 0;
+  padding: 16px;
+  box-sizing: border-box;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  background-color: ${(props) => props.theme.color.background};
 `;
 
 export const titleWrapper = styled.div`

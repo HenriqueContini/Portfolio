@@ -2,7 +2,7 @@ import * as S from "./styles";
 
 const navList = [
   {
-    link: "#",
+    link: "#banner",
     text: "Início",
   },
   {
@@ -17,11 +17,15 @@ const navList = [
 
 import React from "react";
 
-export default function HeaderNav() {
+export default function HeaderNav({ setIsModalOpen }) {
   return (
     <S.nav>
       {navList.map((item, index) => (
-        <S.navItem href={item.link} key={index}>
+        <S.navItem
+          href={item.link}
+          key={index}
+          onClick={() => setIsModalOpen(false)}
+        >
           <S.navItemSpan>#</S.navItemSpan>
           {item.text}
         </S.navItem>

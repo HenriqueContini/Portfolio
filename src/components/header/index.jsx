@@ -15,7 +15,7 @@ export default function Header() {
         <S.title>Portfólio</S.title>
       </S.titleWrapper>
       <S.modalContainer $opened={isModalOpen}>
-        <HeaderNav />
+        <HeaderNav setIsModalOpen={setIsModalOpen} />
         <S.mediaLinkContainer>
           <S.mediaLinkButton href="https://github.com/HenriqueContini">
             <IoLogoGithub />
