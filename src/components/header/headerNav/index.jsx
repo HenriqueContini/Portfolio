@@ -6,7 +6,7 @@ const navList = [
     text: "Início",
   },
   {
-    link: "#",
+    link: "#projects",
     text: "Projetos",
   },
   {

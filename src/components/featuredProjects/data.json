@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Pokédex",
+    "description": "Enciclopédia contendo todas as espécies de Pokémons",
+    "link": "https://github.com/HenriqueContini/Pokedex",
+    "img": "https://user-images.githubusercontent.com/81761545/270115203-effd3891-9f72-4b73-b73c-4b1798b4fdfa.png",
+    "tech": ["React", "TypeScript", "CSS Modules", "Vite"]
+  },
+  {
+    "name": "API Rick & Morty",
+    "description": "API que fornece dados dos personagens e lugares da série Rick and Morty",
+    "link": "https://github.com/HenriqueContini/API-RickAndMorty",
+    "img": "https://user-images.githubusercontent.com/81761545/270116327-fdc50201-d5d7-461f-bb4d-4f31d611a136.png",
+    "tech": ["Node.js", "TypeScript", "Express", "Axios", "Jest", "Supertest"]
+  },
+  {
+    "name": "Vitrine Gamer",
+    "description": "Galeria de jogos full-stack contendo integração com Firebase Auth e funcionalidades de curtir, buscar e ordenar",
+    "link": "https://github.com/HenriqueContini/Vitrine-Gamer",
+    "img": "https://user-images.githubusercontent.com/81761545/270119773-a3559fbf-34de-44d0-8eb6-0d6b75562e69.png",
+    "tech": [
+      "React",
+      "TypeScript",
+      "Firestore",
+      "Firebase Auth",
+      "Styled Components"
+    ]
+  }
+]

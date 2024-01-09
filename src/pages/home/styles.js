@@ -4,6 +4,6 @@ export const HomeContainer = styled.main`
   padding: 16px;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 70px;
   margin-top: 60px;
 `;
