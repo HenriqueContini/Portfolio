@@ -6,7 +6,7 @@ import data from "./skillsData.json";
 
 export default function Skills() {
   return (
-    <S.skillsContainer>
+    <S.skillsContainer id="skills">
       <S.titleWrapper>
         <S.title>
           <span>#</span>Habilidades

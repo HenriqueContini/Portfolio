@@ -10,6 +10,10 @@ const navList = [
     text: "Projetos",
   },
   {
+    link: "#skills",
+    text: "Habilidades",
+  },
+  {
     link: "#",
     text: "Sobre-mim",
   },
