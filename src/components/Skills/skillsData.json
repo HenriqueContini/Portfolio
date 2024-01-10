@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Linguagens",
+    "skills": ["JavaScript", "TypeScript", "Java", "Python", "HTML", "CSS"]
+  },
+  {
+    "name": "Banco de dados",
+    "skills": ["MySQL", "MongoDB", "Firestore"]
+  },
+  {
+    "name": "Frameworks",
+    "skills": ["React", "Next.js", "Node.js", "Express", "Spring Boot 3"]
+  },
+  {
+    "name": "QA",
+    "skills": ["SCRUM", "Kanban", "Cypress", "Jest", "TDD", "Casos de testes"]
+  },
+  {
+    "name": "Ferramentas",
+    "skills": [
+      "VSCode",
+      "Intellij",
+      "Git",
+      "GitHub",
+      "Docker",
+      "Figma",
+      "Insomnia"
+    ]
+  },
+  {
+    "name": "Outros",
+    "skills": [
+      "Firebase Auth",
+      "TypeORM",
+      "Sequelize",
+      "Multer",
+      "Styled Components"
+    ]
+  }
+]

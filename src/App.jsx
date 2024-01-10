@@ -1,7 +1,7 @@
 import { ThemeProvider } from "styled-components";
 import * as S from "./styles";
-import Home from "./pages/home";
-import Header from "./components/header";
+import Home from "./pages/Home";
+import Header from "./components/Header";
 
 const theme = {
   color: {

@@ -3,7 +3,7 @@ import * as S from "./styles";
 import logo from "../../assets/logo.svg";
 import { HiMenuAlt3 } from "react-icons/hi";
 import { IoLogoLinkedin, IoMdClose, IoLogoGithub } from "react-icons/io";
-import HeaderNav from "./headerNav";
+import HeaderNav from "./HeaderNav";
 
 export default function Header() {
   const [isModalOpen, setIsModalOpen] = useState(false);
