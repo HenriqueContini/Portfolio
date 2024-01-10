@@ -1,5 +1,6 @@
 import React from "react";
 import * as S from "./styles";
+import TextAsTag from "../../TextAsTag";
 
 export default function SkillCard({ data }) {
   return (
@@ -7,7 +8,7 @@ export default function SkillCard({ data }) {
       <S.cardTitle>{data.name}</S.cardTitle>
       <S.cardTechWrapper>
         {data.skills.map((item, index) => (
-          <p key={index}>{item}</p>
+          <TextAsTag key={index} text={item} />
         ))}
       </S.cardTechWrapper>
     </S.cardContainer>

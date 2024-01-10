@@ -1,8 +1,7 @@
 import React from "react";
 import * as S from "./styles";
 import { FiGithub } from "react-icons/fi";
-
-const languages = ["HTML", "CSS", "JavaScript", "React"];
+import TextAsTag from "../../TextAsTag";
 
 export default function Card({ project }) {
   return (
@@ -10,7 +9,7 @@ export default function Card({ project }) {
       <S.cardImg src={project.img} alt={"Capa do projeto: " + project.name} />
       <S.cardLanguageWrapper>
         {project.tech.map((item, index) => (
-          <S.cardLanguage key={index}>{item}</S.cardLanguage>
+          <TextAsTag key={index} text={item} />
         ))}
       </S.cardLanguageWrapper>
       <S.cardInfoWrapper>

@@ -16,16 +16,11 @@ export const cardLanguageWrapper = styled.div`
   justify-content: space-evenly;
   flex-wrap: wrap;
   border-top: 1px solid ${(props) => props.theme.color.gray};
-`;
-
-export const cardLanguage = styled.p`
-  font-size: 1rem;
-  padding: 5px;
-  color: ${(props) => props.theme.color.gray};
+  padding: 10px;
+  gap: 8px;
 `;
 
 export const cardInfoWrapper = styled.div`
-  text-align: center;
   padding: 16px;
   display: flex;
   flex-direction: column;

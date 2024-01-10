@@ -22,7 +22,7 @@
       "React",
       "TypeScript",
       "Firestore",
-      "Firebase Auth",
+      "Firebase",
       "Styled Components"
     ]
   }

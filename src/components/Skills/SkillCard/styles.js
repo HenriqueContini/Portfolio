@@ -22,11 +22,4 @@ export const cardTechWrapper = styled.div`
   justify-content: space-evenly;
   gap: 8px;
   padding: 10px;
-
-  & > p {
-    color: ${(props) => props.theme.color.white};
-    background-color: rgba(171, 178, 191, 0.1);
-    border-radius: 5px;
-    padding: 4px;
-  }
 `;

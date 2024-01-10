@@ -49,5 +49,5 @@ export const seeMoreWrapper = styled.div`
 export const projectsWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
 `;
