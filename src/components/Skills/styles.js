@@ -34,6 +34,5 @@ export const titleLine = styled.div`
 export const skillsCardWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 0 16px;
   gap: 30px;
 `;

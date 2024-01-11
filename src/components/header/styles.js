@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const headerContainer = styled.header`
   position: fixed;
   top: 0;
-  padding: 16px;
+  padding: 20px;
   box-sizing: border-box;
   width: 100%;
   display: flex;
@@ -55,7 +55,7 @@ export const modalContainer = styled.div`
   min-height: calc(100% - 60px);
   width: 100%;
   background-color: ${(props) => props.theme.color.background};
-  padding: 36px 16px;
+  padding: 36px 20px;
 
   @media screen and (min-width: 768px) {
     position: relative;
