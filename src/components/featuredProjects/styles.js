@@ -56,5 +56,6 @@ export const projectsWrapper = styled.div`
   @media screen and (min-width: 768px) {
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: stretch;
   }
 `;

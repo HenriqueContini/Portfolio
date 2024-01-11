@@ -39,7 +39,13 @@ export const skillsCardWrapper = styled.div`
   gap: 30px;
 
   @media screen and (min-width: 768px) {
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: stretch;
+    justify-items: center;
+  }
+
+  @media screen and (min-width: 1024px) {
+    grid-template-columns: repeat(3, 1fr);
   }
 `;

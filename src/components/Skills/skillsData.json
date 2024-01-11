@@ -32,9 +32,9 @@
     "skills": [
       "Firebase Auth",
       "TypeORM",
-      "Sequelize",
       "Multer",
-      "Styled Components"
+      "Styled Components",
+      "Sequelize"
     ]
   }
 ]

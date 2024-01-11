@@ -39,6 +39,10 @@ export const wrapper = styled.div`
   @media screen and (min-width: 768px) {
     flex-direction: column-reverse;
   }
+
+  @media screen and (min-width: 1024px) {
+    flex-direction: row;
+  }
 `;
 
 export const aboutMeImg = styled.img`

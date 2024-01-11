@@ -5,6 +5,12 @@
   box-sizing: border-box;
 }
 
+html {
+  @media screen and (min-width: 1024px) {
+    font-size: 18px;
+  }
+}
+
 body {
   font-family: "Fira Code", monospace;
   background-color: #282c33;

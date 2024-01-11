@@ -5,7 +5,7 @@ export const cardContainer = styled.div`
   flex-direction: column;
   border: 1px solid ${(props) => props.theme.color.gray};
   width: 100%;
-  max-width: 320px;
+  max-width: 350px;
 `;
 
 export const cardTitle = styled.p`
@@ -22,6 +22,8 @@ export const cardTechWrapper = styled.div`
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
   gap: 8px;
   padding: 10px;
 `;

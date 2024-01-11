@@ -4,7 +4,7 @@ export const cardWrapper = styled.div`
   display: flex;
   flex-direction: column;
   border: 1px solid ${(props) => props.theme.color.gray};
-  max-width: 320px;
+  max-width: 350px;
 `;
 
 export const cardImg = styled.img`
@@ -25,6 +25,8 @@ export const cardInfoWrapper = styled.div`
   padding: 16px;
   display: flex;
   flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
   gap: 20px;
   border-top: 1px solid ${(props) => props.theme.color.gray};
 `;

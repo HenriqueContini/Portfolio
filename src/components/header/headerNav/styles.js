@@ -27,6 +27,10 @@ export const navItem = styled.a`
     font-size: 1rem;
     flex-direction: row;
   }
+
+  @media screen and (min-width: 1024px) {
+    font-size: 1.125rem;
+  }
 `;
 
 export const navItemSpan = styled.span`
