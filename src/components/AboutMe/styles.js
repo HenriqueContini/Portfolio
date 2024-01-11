@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const skillsContainer = styled.section`
+export const aboutMeContainer = styled.section`
   display: flex;
   flex-direction: column;
   gap: 48px;
@@ -31,9 +31,19 @@ export const titleLine = styled.div`
   background-color: ${(props) => props.theme.color.primary};
 `;
 
-export const skillsCardWrapper = styled.div`
+export const skillsImg = styled.img`
+  margin: auto;
+  width: 70%;
+`;
+
+export const textWrapper = styled.article`
   display: flex;
   flex-direction: column;
-  padding: 0 16px;
-  gap: 30px;
+  gap: 20px;
+`;
+
+export const text = styled.p`
+  color: ${(props) => props.theme.color.gray};
+  font-size: 1rem;
+  line-height: 1.5rem;
 `;

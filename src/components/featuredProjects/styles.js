@@ -50,4 +50,5 @@ export const projectsWrapper = styled.div`
   display: flex;
   flex-direction: column;
   gap: 30px;
+  padding: 0 16px;
 `;

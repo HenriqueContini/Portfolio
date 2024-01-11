@@ -14,7 +14,7 @@ const navList = [
     text: "Habilidades",
   },
   {
-    link: "#",
+    link: "#aboutMe",
     text: "Sobre-mim",
   },
 ];
