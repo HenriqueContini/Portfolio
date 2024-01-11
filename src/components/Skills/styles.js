@@ -34,5 +34,12 @@ export const titleLine = styled.div`
 export const skillsCardWrapper = styled.div`
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
   gap: 30px;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 `;

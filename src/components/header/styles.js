@@ -10,6 +10,10 @@ export const headerContainer = styled.header`
   flex-direction: row;
   justify-content: space-between;
   background-color: ${(props) => props.theme.color.background};
+
+  @media screen and (min-width: 768px) {
+    padding: 30px 40px;
+  }
 `;
 
 export const titleWrapper = styled.div`

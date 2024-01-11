@@ -24,7 +24,7 @@ export const navItem = styled.a`
   }
 
   @media screen and (min-width: 768px) {
-    font-size: 1.15rem;
+    font-size: 1rem;
     flex-direction: row;
   }
 `;

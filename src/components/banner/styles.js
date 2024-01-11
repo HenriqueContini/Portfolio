@@ -4,6 +4,12 @@ export const bannerContainer = styled.section`
   display: flex;
   flex-direction: column;
   gap: 50px;
+
+  @media screen and (min-width: 768px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
 `;
 
 export const textWrapper = styled.article`
@@ -31,10 +37,12 @@ export const bannerText = styled.p`
 export const imageWrapper = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: center;
 `;
 
 export const bannerImage = styled.img`
   width: 100%;
+  max-width: 300px;
 `;
 
 export const workingOnWrapper = styled.div`

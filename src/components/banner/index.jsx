@@ -19,7 +19,7 @@ export default function Banner() {
     <S.bannerContainer id="banner">
       <S.textWrapper>
         <S.bannerTitle>
-          Henrique, <span>desenvolvedor web full-stack</span> & <span>QA</span>
+          Henrique, <span>desenvolvedor full-stack</span> & <span>QA</span>
         </S.bannerTitle>
         <S.bannerText>
           Criando aplicações web funcionais, responsivas e com qualidade
@@ -35,7 +35,7 @@ export default function Banner() {
             <FaCircle />
           </S.workingOnIcon>
           <S.workingOnText>
-            Atualmente, desenvolvendo:{" "}
+            Desenvolvendo:{" "}
             <a
               href={workingOnData.repoUrl ? workingOnData.repoUrl : "#"}
               target={workingOnData.repoUrl ? "_blank" : "_self"}

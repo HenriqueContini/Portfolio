@@ -4,6 +4,8 @@ export const cardContainer = styled.div`
   display: flex;
   flex-direction: column;
   border: 1px solid ${(props) => props.theme.color.gray};
+  width: 100%;
+  max-width: 320px;
 `;
 
 export const cardTitle = styled.p`

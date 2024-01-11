@@ -4,6 +4,7 @@ export const cardWrapper = styled.div`
   display: flex;
   flex-direction: column;
   border: 1px solid ${(props) => props.theme.color.gray};
+  max-width: 320px;
 `;
 
 export const cardImg = styled.img`

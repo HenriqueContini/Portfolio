@@ -31,9 +31,20 @@ export const titleLine = styled.div`
   background-color: ${(props) => props.theme.color.primary};
 `;
 
-export const skillsImg = styled.img`
+export const wrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: column-reverse;
+  }
+`;
+
+export const aboutMeImg = styled.img`
   margin: auto;
   width: 70%;
+  max-width: 300px;
 `;
 
 export const textWrapper = styled.article`

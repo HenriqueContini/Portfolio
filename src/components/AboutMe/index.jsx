@@ -12,12 +12,14 @@ export default function AboutMe() {
         </S.title>
         <S.titleLine />
       </S.titleWrapper>
-      <S.skillsImg src={techImg} />
-      <S.textWrapper>
-        {data.map((item, index) => (
-          <S.text key={index}>{item}</S.text>
-        ))}
-      </S.textWrapper>
+      <S.wrapper>
+        <S.aboutMeImg src={techImg} />
+        <S.textWrapper>
+          {data.map((item, index) => (
+            <S.text key={index}>{item}</S.text>
+          ))}
+        </S.textWrapper>
+      </S.wrapper>
     </S.aboutMeContainer>
   );
 }
