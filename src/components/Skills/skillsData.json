@@ -4,12 +4,12 @@
     "skills": ["JavaScript", "TypeScript", "Java", "Python", "HTML", "CSS"]
   },
   {
-    "name": "Banco de dados",
-    "skills": ["MySQL", "MongoDB", "Firestore"]
-  },
-  {
     "name": "Frameworks",
     "skills": ["React", "Next.js", "Node.js", "Express", "Spring Boot 3"]
+  },
+  {
+    "name": "Banco de dados",
+    "skills": ["MySQL", "MongoDB", "Firestore"]
   },
   {
     "name": "QA",

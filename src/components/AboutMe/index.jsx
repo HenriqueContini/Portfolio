@@ -2,16 +2,12 @@ import React from "react";
 import * as S from "./styles";
 import techImg from "../../assets/skillsImg.svg";
 import data from "./aboutMeData.json";
+import Title from "../Title";
 
 export default function AboutMe() {
   return (
     <S.aboutMeContainer>
-      <S.titleWrapper>
-        <S.title>
-          <span>#</span>Sobre mim
-        </S.title>
-        <S.titleLine />
-      </S.titleWrapper>
+      <Title text="Sobre mim" />
       <S.wrapper>
         <S.aboutMeImg src={techImg} />
         <S.textWrapper>
