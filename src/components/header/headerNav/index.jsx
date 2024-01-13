@@ -1,21 +1,14 @@
 import * as S from "./styles";
+import { NavLink } from "react-router-dom";
 
 const navList = [
   {
-    link: "#banner",
+    link: "/",
     text: "Início",
   },
   {
-    link: "#projects",
+    link: "/projetos",
     text: "Projetos",
-  },
-  {
-    link: "#skills",
-    text: "Habilidades",
-  },
-  {
-    link: "#aboutMe",
-    text: "Sobre-mim",
   },
 ];
 
@@ -25,14 +18,10 @@ export default function HeaderNav({ setIsModalOpen }) {
   return (
     <S.nav>
       {navList.map((item, index) => (
-        <S.navItem
-          href={item.link}
-          key={index}
-          onClick={() => setIsModalOpen(false)}
-        >
-          <S.navItemSpan>#</S.navItemSpan>
+        <NavLink key={index} to={item.link}>
+          <S.span>#</S.span>
           {item.text}
-        </S.navItem>
+        </NavLink>
       ))}
     </S.nav>
   );

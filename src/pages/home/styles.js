@@ -10,6 +10,7 @@ export const HomeContainer = styled.main`
 
   @media screen and (min-width: 768px) {
     padding: 60px 40px;
+    margin-top: 0;
   }
 
   @media screen and (min-width: 1024px) {

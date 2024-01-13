@@ -6,7 +6,7 @@ import projectsData from "./data.json";
 
 export default function FeaturedProjects() {
   return (
-    <S.featuredProjectsContainer id="projects">
+    <S.featuredProjectsContainer>
       <S.titleWrapper>
         <S.title>
           <span>#</span>Projetos

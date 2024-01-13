@@ -12,12 +12,12 @@ export const headerContainer = styled.header`
   background-color: ${(props) => props.theme.color.background};
 
   @media screen and (min-width: 768px) {
+    position: relative;
     padding: 30px 40px;
   }
 
   @media screen and (min-width: 1024px) {
-    padding-inline: 10%;
-    padding-top: 40px;
+    padding: 40px 10%;
   }
 `;
 

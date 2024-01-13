@@ -5,7 +5,7 @@ import data from "./aboutMeData.json";
 
 export default function AboutMe() {
   return (
-    <S.aboutMeContainer id="aboutMe">
+    <S.aboutMeContainer>
       <S.titleWrapper>
         <S.title>
           <span>#</span>Sobre mim

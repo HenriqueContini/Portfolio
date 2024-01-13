@@ -16,7 +16,7 @@ export default function Banner() {
   }, []);
 
   return (
-    <S.bannerContainer id="banner">
+    <S.bannerContainer>
       <S.textWrapper>
         <S.bannerTitle>
           Henrique, <span>desenvolvedor full-stack</span> & <span>QA</span>
@@ -26,7 +26,7 @@ export default function Banner() {
         </S.bannerText>
         <S.buttonWrapper>
           <S.buttonLink href="https://www.linkedin.com/in/henrique-contini/">
-            Linkedin
+            LinkedIn
           </S.buttonLink>
           <S.buttonLink href="https://github.com/HenriqueContini">
             GitHub
