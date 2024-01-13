@@ -9,6 +9,7 @@ export const bannerContainer = styled.section`
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    justify-items: center;
   }
 `;
 
@@ -16,6 +17,10 @@ export const textWrapper = styled.article`
   display: flex;
   flex-direction: column;
   gap: 26px;
+
+  @media screen and (min-width: 1024px) {
+    max-width: 600px;
+  }
 `;
 
 export const bannerTitle = styled.h2`
@@ -43,6 +48,10 @@ export const imageWrapper = styled.div`
 export const bannerImage = styled.img`
   width: 100%;
   max-width: 300px;
+
+  @media screen and (min-width: 1024px) {
+    max-width: 400px;
+  }
 `;
 
 export const workingOnWrapper = styled.div`
@@ -74,5 +83,30 @@ export const workingOnText = styled.p`
 
   & > a:hover {
     text-decoration: underline;
+  }
+`;
+
+export const buttonWrapper = styled.div`
+  display: none;
+  flex-direction: row;
+  gap: 30px;
+  margin-top: 30px;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+`;
+
+export const buttonLink = styled.a`
+  padding: 10px 20px;
+  cursor: pointer;
+  text-decoration: none;
+  color: ${(props) => props.theme.color.white};
+  border: 1px solid ${(props) => props.theme.color.primary};
+
+  transition: 0.3s;
+
+  &:hover {
+    background-color: ${(props) => props.theme.color.primary}26;
   }
 `;

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import * as S from "./styles";
-import { FaCircle } from "react-icons/fa6";
+import { FaSquareFull } from "react-icons/fa";
 import profileImg from "../../assets/profileImg.svg";
 import getWorkingOn from "../../services/getWorkingOn";
 
@@ -24,6 +24,14 @@ export default function Banner() {
         <S.bannerText>
           Criando aplicações web funcionais, responsivas e com qualidade
         </S.bannerText>
+        <S.buttonWrapper>
+          <S.buttonLink href="https://www.linkedin.com/in/henrique-contini/">
+            Linkedin
+          </S.buttonLink>
+          <S.buttonLink href="https://github.com/HenriqueContini">
+            GitHub
+          </S.buttonLink>
+        </S.buttonWrapper>
       </S.textWrapper>
       <S.imageWrapper>
         <S.bannerImage
@@ -32,7 +40,7 @@ export default function Banner() {
         />
         <S.workingOnWrapper>
           <S.workingOnIcon>
-            <FaCircle />
+            <FaSquareFull />
           </S.workingOnIcon>
           <S.workingOnText>
             Desenvolvendo:{" "}

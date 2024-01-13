@@ -14,6 +14,11 @@ export const headerContainer = styled.header`
   @media screen and (min-width: 768px) {
     padding: 30px 40px;
   }
+
+  @media screen and (min-width: 1024px) {
+    padding-inline: 10%;
+    padding-top: 40px;
+  }
 `;
 
 export const titleWrapper = styled.div`
