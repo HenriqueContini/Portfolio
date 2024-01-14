@@ -4,7 +4,7 @@
 
 ### 🖥️ Projeto
 
-Para visualizar o site, <a href="https://space-tourism-henriquecontini.vercel.app/">clique aqui</a>.
+Para visualizar o site, <a href="https://portfolio-henriquecontini.vercel.app/">clique aqui</a>.
 
 ## 📝 Descrição
 
