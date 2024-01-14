@@ -18,7 +18,11 @@ export default function HeaderNav({ setIsModalOpen }) {
   return (
     <S.nav>
       {navList.map((item, index) => (
-        <NavLink key={index} to={item.link}>
+        <NavLink
+          key={index}
+          to={item.link}
+          onClick={() => setIsModalOpen(false)}
+        >
           <S.span>#</S.span>
           {item.text}
         </NavLink>

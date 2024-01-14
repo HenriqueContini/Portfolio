@@ -1,57 +1,52 @@
 import styled from "styled-components";
 
-export const cardWrapper = styled.div`
+export const container = styled.div`
   display: flex;
   flex-direction: column;
   border: 1px solid ${(props) => props.theme.color.gray};
   max-width: 350px;
-`;
-
-export const cardImg = styled.img`
   width: 100%;
 `;
 
-export const cardLanguageWrapper = styled.div`
+export const languagesWrapper = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  border-top: 1px solid ${(props) => props.theme.color.gray};
+  border-bottom: 1px solid ${(props) => props.theme.color.gray};
   padding: 10px;
   gap: 8px;
 `;
 
-export const cardInfoWrapper = styled.div`
+export const textWrapper = styled.div`
   text-align: center;
-  padding: 16px;
   display: flex;
   flex-direction: column;
+  gap: 30px;
+  padding: 16px;
   height: 100%;
   justify-content: space-between;
-  gap: 20px;
-  border-top: 1px solid ${(props) => props.theme.color.gray};
 `;
 
-export const cardInfoTitle = styled.p`
-  color: ${(props) => props.theme.color.white};
+export const textTitle = styled.p`
+  font-size: 1.25rem;
   font-weight: 500;
-  font-size: 1.5rem;
+  color: ${(props) => props.theme.color.white};
 `;
 
-export const cardInfoDescription = styled.p`
-  color: ${(props) => props.theme.color.gray};
-  line-height: 18px;
+export const textDescription = styled.p`
   font-size: 1rem;
+  color: ${(props) => props.theme.color.gray};
 `;
 
-export const cardInfoLink = styled.a`
+export const textButton = styled.a`
   align-self: center;
   display: inline-flex;
-  color: ${(props) => props.theme.color.white};
+  color: #ffffff;
   font-size: 1rem;
   padding: 10px 16px;
   width: fit-content;
-  border: 1px solid ${(props) => props.theme.color.primary};
+  border: 1px solid #45bddc;
   cursor: pointer;
   text-decoration: none;
   transition: 0.2s;

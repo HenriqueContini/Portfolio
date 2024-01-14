@@ -6,19 +6,22 @@ import projectsData from "./data.json";
 import Title from "../Title";
 import { Link } from "react-router-dom";
 
-export default function FeaturedProjects() {
+export default function FeaturedProjects({ showSectionTitle = true }) {
   return (
     <S.featuredProjectsContainer>
-      <Title text="Projetos">
-        <S.seeMore>
-          <Link to="/projetos">
-            <p>Todos</p>
-            <div>
-              <FaArrowRight />
-            </div>
-          </Link>
-        </S.seeMore>
-      </Title>
+      {showSectionTitle && (
+        <Title text="Projetos">
+          <S.seeMore>
+            <Link to="/projetos">
+              <p>Todos</p>
+              <div>
+                <FaArrowRight />
+              </div>
+            </Link>
+          </S.seeMore>
+        </Title>
+      )}
+
       <S.projectsWrapper>
         {projectsData.map((project, index) => (
           <Card project={project} key={index} />
