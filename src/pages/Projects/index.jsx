@@ -3,6 +3,7 @@ import * as S from "./styles";
 import Title from "../../components/Title";
 import FeaturedProjects from "../../components/FeaturedProjects";
 import AllProjects from "../../components/AllProjects";
+import Loading from "../../components/Loading";
 
 export default function Projects() {
   return (
